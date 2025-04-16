@@ -1,0 +1,71 @@
+# ===== Frontend specific (React/Node) =====
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ===== Backend specific (Java/Maven/Spring Boot) =====
+# Maven build outputs
+backend/target/
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/release.properties
+
+# Gradle build outputs
+backend/build/
+backend/.gradle/
+
+# Eclipse specific
+backend/.settings/
+backend/.classpath
+backend/.project
+
+# IntelliJ specific
+backend/.idea/
+backend/*.iml
+backend/*.iws
+
+# Compiled class files
+backend/**/*.class
+
+# Log files
+backend/*.log
+logs/
+backend/logs/
+
+# Package files
+backend/*.jar
+backend/*.war
+backend/*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# ===== General =====
+# Environment variables (root level)
+.env*
+!/.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE - VSCode
+.vscode/ 
